@@ -41,7 +41,6 @@ while True:
         mac = ''.join(sqlmac[i])
 
         
-
         print mac
        
         if mac in var:
@@ -49,14 +48,11 @@ while True:
 
     if device > 0:
 
-        
         os.system(on)
-        print "a"
     
     else:
 
         os.system(off)
-        print "b"
 
     device = 0
 
